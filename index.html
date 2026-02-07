@@ -6,18 +6,23 @@
     <title>ANAZ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Miniver&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
     <!-- linking font-awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- linking swiper css for review slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header / navbar -->
     <header>
         <nav class="navbar section-content">
-            <a href="#" class="nav-logo">
-                <h2 class="logo-text">Anaz</h2>
-            </a>
+            <div class="nav-logo-wrapper">
+                <a href="#" class="nav-logo">
+                    <img src="image/logo.png" alt="Logo" class="logo-img">
+                </a>
+            </div>
             <ul class="nav-menu">
                 <button id="menu-close-button" class="fas fa-times"></button>
 
@@ -25,16 +30,16 @@
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Categories</a>
+                    <a href="#menu" class="nav-link">Categories</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#review" class="nav-link">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Cart</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
 
@@ -47,29 +52,32 @@
         <section class="hero-section">
             <div class="section-content">
                 <div class="hero-details">
-                    <h2 class="title">Best Rice</h2>
+                    <h2 class="title">Anaz – “Rice You Can Trust.”</h2>
                     <h3 class="subtitle">Make your dine fine with our finest rice! </h3>
                     <p class="desc">
                         Welcome to our Anaz paradise, where every grains tells a story and cherish there existance.
                     </p>
                     <div class="buttons">
-                        <a href="#" class="button order-now">Order Now</a>
-                        <a href="#" class="button contact-us">Contact Us</a>
+                        <a href="#menu" class="button order-now">Order Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
                     </div>
                 </div>
                 <!-- logo pic -->
                 <div class="hero-image-wrapper">
-                    <img src="hero-section-logo.png" alt="hero" class="hero-image">
+                    <img src="image/hero-section-logo.png" alt="hero" class="hero-image">
                 </div>
 
             </div>
         </section>
 
+        
+
+
         <!-- about section-->
-         <section class="about-section">
+        <section class="about-section" id="about">
             <div class="section-content">
                 <div class="about-image-wrapper">
-                    <img src="about-section-img.png" alt="About" class="about-image">
+                    <img src="image/about-section-img.png" alt="About" class="about-image">
                 </div>
                 <div class="about-details">
                     <h2 class="section-title">About Us</h2>
@@ -78,15 +86,173 @@
                     </p>
 
                     <div class="social-link-list">
-                        <a href="#" class="social-link"><i class="fa-brand fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brand fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brand fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
+
+    
+
+
+        <!-- menu section -->
+        <section class="menu-section" id="menu">
+                <h2 class="section-title">Our Categories</h2>
+                <div class="section-content">
+                    <ul class="menu-list">
+                        <li class="menu-items">
+                            <img src="image/menu-daily-rice-img.png" alt="Daily Rice" class="menu-image">
+                            <h3 class="name">Daily Rice</h3>
+                            <p class="text">
+                                Everyday staple, perfect for all your meals.
+                            </p>
+                        </li>
+                        <li class="menu-items">
+                            <img src="image/menu-premium-rice-img.png" alt="Premium Rice" class="menu-image">
+                            <h3 class="name">Premium Rice</h3>
+                            <p class="text">
+                                Premium quality rice, ideal for special occasions.
+                            </p>
+                        </li>
+                        <li class="menu-items">
+                            <img src="image/menu-regional-rice-img.png" alt="Regional Rice" class="menu-image">
+                            <h3 class="name">Regional Rice</h3>
+                            <p class="text">
+                                Locally sourced rice with unique regional flavors.
+                            </p>
+                        </li>
+                        <li class="menu-items">
+                            <img src="image/menu-organic-rice-img.png" alt="Organic Rice" class="menu-image">
+                            <h3 class="name">Organic Rice</h3>
+                            <p class="text">
+                                Naturally grown, chemical-free rice for a healthy lifestyle.
+                            </p>
+                        </li>
+                        <li class="menu-items">
+                            <img src="image/menu-bulk-img.png" alt="Bulk Supply Rice" class="menu-image">
+                            <h3 class="name">Bulk Supply Rice</h3>
+                            <p class="text">
+                                Large quantity rice for commercial and institutional use.
+                            </p>
+                        </li>
+                        <li class="menu-items">
+                            <img src="image/menu-speciality-rice-img.png" alt="Speciality Rice" class="menu-image">
+                            <h3 class="name">Speciality Rice</h3>
+                            <p class="text">
+                                Unique varieties of rice with distinct characteristics and flavors.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+
+        <!-- review section -->
+        <section class="review-section" id="review">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="review-list swiper-wrapper">
+                            <li class="review swiper-slide">
+                                <img src="image/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Rani Sharma</h3>
+                                <i class="feedback">"Loved the premium rice variety!"</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="image/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Ramesh Gupta</h3>
+                                <i class="feedback">"Great quality and nice packaging!"</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="image/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Suresh Patel</h3>
+                                <i class="feedback">"Excellent taste and texture!"</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="image/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Priya Sharma</h3>
+                                <i class="feedback">"Very satisfied with the product quality!"</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="image/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Rohit Kumar</h3>
+                                <i class="feedback">"Highly recommended for its freshness and taste!"</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p class="text">P.N Road, Near Kotwali Police Station, Cooch Behar, West Bengal (736101)</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p class="text">info@anaz.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="text">(+91) 7384112752</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p class="text">Monday to Saturday: 9:00 AM - 8:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p class="text">Sunday: 10:00 AM - 6:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p class="text">www.anaz.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
 
+    <!-- footer section -->
+    <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">&copy; 2024 Anaz. All rights reserved.</p>
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Privacy Policy</a>
+                <span class="sperator">|</span>
+                <a href="#" class="policy-link">Refund Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Linking swipper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
     <script src="script.js"></script>
 </body>
 </html>
