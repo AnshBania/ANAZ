@@ -39,6 +39,29 @@ The goal of this project is to build a **professional brand presence** for a ric
 
 ---
 
+## 📸 Website Preview
+
+> Visual overview of the Anaz website interface and design layout.
+
+### 🏠 Home Page
+<img width="1920" height="904" alt="Screenshot 2026-02-07 130206" src="https://github.com/user-attachments/assets/14250642-0d45-41b1-863f-5f7b01077a78" />
+
+
+### 🌾 Product Section
+<img width="1920" height="908" alt="Screenshot 2026-02-07 130232" src="https://github.com/user-attachments/assets/9d8f5b01-65c3-4381-b1a1-6937b2dbffa8" />
+
+
+### 📖 About Section
+<img width="1920" height="923" alt="Screenshot 2026-02-07 130222" src="https://github.com/user-attachments/assets/a515ca5e-34dc-4d44-bf8f-108c4aeba697" />
+
+
+### 📞 Contact Section
+<img width="1920" height="905" alt="Screenshot 2026-02-07 130251" src="https://github.com/user-attachments/assets/db1fd0d9-6fd5-4898-b2d9-33b900b87d68" />
+
+
+---
+
+
 ## 🌐 Live Website
 
 🔗 https://anshbania.github.io/ANAZ/
