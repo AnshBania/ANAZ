@@ -1,136 +1,53 @@
-Anaz - Online Rice Store
+# 🌾 Anaz — Premium Rice Brand Website
 
+**Anaz** is a modern, clean, and professional website for a premium rice brand.  
+It is designed to showcase quality, purity, and trust through a simple UI, elegant typography, and a smooth user experience.
 
+This project represents a brand-focused frontend build with emphasis on:
+**clarity, usability, and visual quality.**
 
-Anaz is a responsive e-commerce website focused on selling different varieties of rice. The platform is designed to provide a smooth browsing and shopping experience for rice enthusiasts and customers looking for quality products.
+---
 
+## ✨ Highlights
 
+- 🌱 Premium brand-focused design  
+- 📱 Fully responsive layout  
+- 🎨 Clean UI with classy typography  
+- 🧭 Simple and intuitive navigation  
+- ⚡ Fast-loading static website  
+- 🧩 Structured layout for future scalability (products, categories, sections)
 
-Features
+---
 
+## 🧠 Purpose
 
+The goal of this project is to build a **professional brand presence** for a rice-based product line with a strong visual identity and clean structure — suitable for:
+- Product showcasing  
+- Brand presentation  
+- Future e-commerce expansion  
+- Portfolio & internship projects  
 
-Responsive Design: Works seamlessly on desktop, tablet, and mobile devices.
+---
 
+## 💻 Tech Stack
 
+- **HTML5** – Structure  
+- **CSS3** – Styling & layout  
+- **JavaScript** – Interactivity  
+- **Google Fonts** – Typography  
+- **GitHub Pages** – Deployment  
 
-Product Categories: Browse rice by type, including Basmati, Sona Masoori, Jasmine, and more.
+---
 
+## 🌐 Live Website
 
+🔗 https://anshbania.github.io/ANAZ/
 
-Product Details: Each product has a brief description, price, and quantity options.
+---
 
-
-
-Shopping Cart: Add, remove, and update items before checkout.
-
-
-
-User-Friendly Interface: Clean layout and easy navigation.
-
-
-
-Technologies Used
-
-
-
-Frontend: HTML, CSS, JavaScript
-
-
-
-Tools \& Libraries: VS Code, Git, GitHub
-
-
-
-Responsive Frameworks: Flexbox/Grid for layout
-
-
-
-Project Structure
-
-Anaz/
-
-│
-
-├── index.html         # Homepage
-
-├── product.html       # Product listing pages
-
-├── css/
-
-│   └── style.css      # Stylesheet
-
-├── js/
-
-│   └── script.js      # JavaScript functionality
-
-├── images/            # Product images
-
-└── README.md
-
-
-
-Future Enhancements
-
-
-
-Integration with payment gateways
-
-
-
-User authentication and profiles
-
-
-
-Advanced search and filtering for products
-
-
-
-Backend integration for dynamic product management
-
-
-
-How to Run
-
-
+## ⚡ Run Locally
 
 Clone the repository:
 
-
-
-git clone <repository-link>
-
-
-
-
-
-Open index.html in your browser.
-
-
-
-Navigate through the categories and interact with products.
-
-
-
-Author
-
-
-
-Ansh – Engineering Student, MSIT Kolkata
-
-
-
-GitHub: \[Your GitHub Link]
-
-
-
-LinkedIn: \[Your LinkedIn Link]
-
-
-
-License
-
-
-
-This project is open-source and available under the MIT License.
-
+```bash
+git clone https://github.com/AnshBania/ANAZ.git
